@@ -1,0 +1,5 @@
+make main --dry-run --keep-going --print-directory
+make: Entering directory '/home/kenn/Documents/cpp/ray-tracing-one-weekend'
+make: 'main' is up to date.
+make: Leaving directory '/home/kenn/Documents/cpp/ray-tracing-one-weekend'
+ 

@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+# VSCode folder
+.vscode/configurationCache.log
+main

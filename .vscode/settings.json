@@ -1,0 +1,10 @@
+{
+  "makefile.extensionOutputFolder": "./.vscode",
+  "makefile.launchConfigurations": [
+    {
+      "cwd": "/home/kenn/Documents/cpp/ray-tracing-one-weekend",
+      "binaryPath": "/home/kenn/Documents/cpp/ray-tracing-one-weekend/main",
+      "binaryArgs": []
+    }
+  ]
+}
