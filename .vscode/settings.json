@@ -6,5 +6,8 @@
       "binaryPath": "/home/kenn/Documents/cpp/ray-tracing-one-weekend/main",
       "binaryArgs": []
     }
-  ]
+  ],
+  "files.associations": {
+    "iosfwd": "cpp"
+  }
 }
