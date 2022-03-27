@@ -1,5 +1,8 @@
 #include <iostream>
 
+#include "color.hpp"
+#include "vec3.hpp"
+
 // Usage ./main > image.ppm
 int main(int argc, char **argv)
 {
