@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Mar 26 23:27:40 2022
+# Make data base, printed on Mon Mar 28 21:07:01 2022
 
 # Variables
 
@@ -49,13 +49,11 @@ VTE_VERSION = 5402
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
-JOURNAL_STREAM = 9:26290
+_ = /usr/bin/code
 # makefile (from 'Makefile', line 1)
 MAKEFILE_LIST :=  Makefile
 # automatic
 @F = $(notdir $@)
-# environment
-IM_CONFIG_PHASE = 1
 # environment
 USERNAME = kenn
 # makefile (from 'Makefile', line 2)
@@ -63,17 +61,13 @@ CXXFLAGS := -g
 # environment
 XDG_DATA_DIRS = /usr/share/gnome:/usr/local/share/:/usr/share/
 # environment
-DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus,guid=208bfb41a58d5aed1e0115ed623f60d6
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-_ = /usr/bin/code
-# environment
-MANAGERPID = 1065
-# environment
 CLUTTER_IM_MODULE = ibus
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-a7f3893e-2c71-4201-a1c4-ba3ca2393c3d.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-6d7459c8-7736-4be1-9e61-071ea51f506c.sock
 # environment
 VSCODE_CWD = /home/kenn/Documents/cpp/ray-tracing-one-weekend
 # default
@@ -83,7 +77,7 @@ PATH = /home/kenn/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
-SESSION_MANAGER = local/catenoid:@/tmp/.ICE-unix/1095,unix/catenoid:/tmp/.ICE-unix/1095
+SESSION_MANAGER = local/catenoid:@/tmp/.ICE-unix/1250,unix/catenoid:/tmp/.ICE-unix/1250
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
@@ -92,8 +86,6 @@ XDG_MENU_PREFIX = gnome-
 VSCODE_LOG_STACK = false
 # environment
 ELECTRON_RUN_AS_NODE = 1
-# environment
-INVOCATION_ID = b586efc7c8364e45b0373fd100c3575e
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -117,7 +109,7 @@ PWD = /home/kenn/Documents/cpp/ray-tracing-one-weekend
 # environment
 XDG_SEAT = seat0
 # environment
-SSH_AGENT_PID = 1162
+SSH_AGENT_PID = 1317
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = GNOME
 # environment
@@ -173,13 +165,11 @@ XDG_CURRENT_DESKTOP = GNOME
 # default
 MAKE_COMMAND := make
 # environment
-OLDPWD = /home/kenn/Documents/cpp
+OLDPWD = /home/kenn
 # default
 .VARIABLES := 
 # automatic
 *F = $(notdir $*)
-# environment
-LANGUAGE = en_US:en
 # environment
 VSCODE_IPC_HOOK = /run/user/1000/vscode-582713b4-1.65.2-main.sock
 # environment
@@ -211,19 +201,19 @@ CXX := g++
 # environment
 LC_ALL = C
 # environment
-DBUS_STARTER_BUS_TYPE = session
-# environment
 SBX_CHROME_API_RQ = 1
 # environment
 SANDBOX_LD_LIBRARY_PATH = :/home/kenn/Ringmesh/RINGMesh/build/third_party/tinyxml2/
 # environment
 QT4_IM_MODULE = ibus
 # environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/f1cf8920_7d99_41f7_bde6_53f81be35c52
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# environment
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/df297ccf_4c18_40dd_aafd_5abc902b1878
 # automatic
 ^F = $(notdir $^)
 # environment
-GNOME_TERMINAL_SERVICE = :1.156
+GNOME_TERMINAL_SERVICE = :1.146
 # default
 SUFFIXES := 
 # environment
@@ -232,6 +222,8 @@ CHROME_DESKTOP = code-url-handler.desktop
 WINDOWPATH = 2
 # default
 .INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+GJS_DEBUG_OUTPUT = stderr
 # default
 .RECIPEPREFIX := 
 # environment
@@ -239,11 +231,9 @@ LANG = C
 # environment
 TERM = xterm-256color
 # environment
-VSCODE_PID = 7279
-# environment
-DBUS_STARTER_ADDRESS = unix:path=/run/user/1000/bus,guid=208bfb41a58d5aed1e0115ed623f60d6
+VSCODE_PID = 4655
 # variable set hash-table stats:
-# Load=115/1024=11%, Rehash=0, Collisions=15/140=11%
+# Load=110/1024=11%, Rehash=0, Collisions=14/135=10%
 
 # Pattern-specific Variable Values
 
@@ -251,9 +241,9 @@ DBUS_STARTER_ADDRESS = unix:path=/run/user/1000/bus,guid=208bfb41a58d5aed1e0115e
 
 # Directories
 
-# . (device 2055, inode 10356939): 10 files, no impossibilities.
+# . (device 2055, inode 10356939): 13 files, no impossibilities.
 
-# 10 files, no impossibilities in 1 directories.
+# 13 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -291,16 +281,16 @@ main:
 # VPATH Search Paths
 
 # No 'vpath' search paths.
+ 
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 15 / storage = 126 B / avg = 8 B
-# current buf: size = 8162 B / used = 126 B / count = 15 / avg = 8 B
- 
+# strcache buffers: 1 (0) / strings = 18 / storage = 155 B / avg = 8 B
+# current buf: size = 8162 B / used = 155 B / count = 18 / avg = 8 B
 
-# strcache performance: lookups = 21 / hit rate = 28%
+# strcache performance: lookups = 24 / hit rate = 25%
 # hash-table stats:
-# Load=15/8192=0%, Rehash=0, Collisions=1/21=5%
-# Finished Make data base on Sat Mar 26 23:27:40 2022
+# Load=18/8192=0%, Rehash=0, Collisions=1/24=4%
+# Finished Make data base on Mon Mar 28 21:07:01 2022
 
  
